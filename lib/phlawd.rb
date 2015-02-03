@@ -29,7 +29,7 @@ module PerpetualPhlawd
     end
     
     def expected_result_file
-      expected_file "FINAL.aln"
+      expected_file "FINAL.aln.rn"
       #File.join @path, "#{@gene_name}.FINAL.aln" # .rn is for edited names
     end
     def expected_taxa_names_file
